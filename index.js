@@ -70,7 +70,7 @@ const displayLoadDetail = (word) => {
     const detailsContainer = document.getElementById('details-container')
     // console.log(detailsContainer)
     detailsContainer.innerHTML = `
-<div class="space-y-5">
+            <div class="space-y-5">
                 <div>
                     <h2 class="text-2xl font-bold">${word.word} (<i class="fa-solid fa-microphone-lines"></i>:${word.pronunciation})</h2>
                     <p class="font-bold">Meaning</p>
